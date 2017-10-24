@@ -1,0 +1,9 @@
+These scripts were used as part of a pragmatics paper examining the role of emojis in online discorse with respect to their expressive content (Spring 2016). Expressiveness is captured with in the context tuple c, and can be interacted with dynamically. Expressive content can be anchored to different clause types and can occur with a variety of speech act types. See Potts (2007) for explination of expressives & Ettinger and Malamud (2013) for an example of work done within the domain of discourse state modification. 
+
+(python 3)
+The first script in the pipeline is tw-collect.py, which uses the python tweepy package to gather tweet. This script allows the user to pick which emoji or set of emojis they would like to be pulled from the twitter public timeline. Results are limited to English language tweets.
+The second script is tw-parse.py which converts json style tweets into a human readable txt file.
+The third script is annotator.py which allows the user to go through the collected tweets and annotate them for anchor clause type, relevant speech act, and linear location of the emoji with respect to the anchor it binds to.
+The fourth script in the pipline r-reader.py allows the user to get statistics on the corpus that they've annotated for.
+
+If improved in the future, we might want to look at using more standardized annotation tools like MAE, which allows for straightforward annotation and automatic calculation of metrics like IAA. We might also consider the size of corpus with respect to number of total tweets and the number of emojis examined; also some standard for annotation of tweets with multiple emojis (including sequences) - which would not be trivial even in something like MAE.

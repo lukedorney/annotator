@@ -26,7 +26,7 @@ for line in f.readlines():
             clause_type = input("Clause-type: (d/in/im/u) ")
             #assertive, directive, commissive, expressive, declaration, and unknown
             speech_act = input("Speech act: (a/di/c/e/de/u) ")
-            #w.r.t. the tweet: intitial, near initial, medial, near final, final
+            #w.r.t. the anchor: intitial, near initial, medial, near final, final
             location = input("Location: (i/ni/m/nf/f) ")
             #direction = input("Direction: (i/e/u) ")
             a = [clause_type,speech_act,location]
