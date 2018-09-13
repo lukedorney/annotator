@@ -12,11 +12,11 @@ import re
     
 """
 
-access_token = "2341262983-PeCxcO1rKkuX3VQgFPUjjdWJ83zlMlfF8xN3aKw"
-access_secret = "Hn4ZFPzy0oSOguVuDTeIUTRZvHMx9NOaTq1Rxj1nR5bKp"
+access_token = ''
+access_secret = ''
 
-consumer_key = "8LGjVqmvGfAdeTOda6DerIUkt"
-consumer_secret = "TQERBKT7Ly1hU0bO1oEeWZlmOXW8o5NFE8E4msDCGmBwc63K74"
+consumer_key = ''
+consumer_secret = ''
 
 
 class StdOutListener(StreamListener):
